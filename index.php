@@ -60,6 +60,8 @@ if(isset($_POST['submit'])) {
 Pastebin 0.1
 
 | <a href="show.php">Show</a>
+| <a href="show2.php?show_all=1">Show all</a>
+| <a href="show2.php">Show2</a>
 
 <form name="paste" action="index.php" method="post">
 <input type="text" value="filename" name="filename"><br/>
